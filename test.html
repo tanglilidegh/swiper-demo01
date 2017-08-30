@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="MobileOptimized" content="width">
+    <meta name="renderer" content="webkit"/>
+    <title>
+        实验室招生
+    </title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <style rel="stylesheet">
+        body {
+            background: #0a3864;
+        }
+
+        /* swiper-wrapper START */
+
+        #type{
+            position: relative;
+            overflow: hidden;
+        }
+
+        #type .swiper-slide{
+            margin-right: 0.4rem;
+            width: auto;
+        }
+
+        #type .swiper-slide:first-child{
+            padding-left: 0.53333333rem;
+        }
+
+        .tutor-list {
+            position: relative;
+            width: 3.06667rem;
+            height: 4rem;
+            color: #0a3864;
+            background: #fff;
+            border-radius: 0.1rem;
+        }
+
+        .tutor-list .advator {
+            position: relative;
+        }
+
+        .listtext {
+            padding: 0.2rem 0 0 0.2rem;
+        }
+
+        .tutor-list .user {
+            width: 3.06667rem;
+            height: 2.8rem;
+            border-top-left-radius: 0.1rem;
+            border-top-right-radius: 0.1rem;
+        }
+
+        .tutor-list .name {
+            margin-bottom: 0.06667rem;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .tutor-list .company {
+            font-size: 12px;
+        }
+
+        /* swiper-wrapper END */
+
+
+    </style>
+</head>
+
+<body>
+<div class="main-wrapper">
+    <!-- 导师列表 -->
+    <div class="item">
+        <div id="type">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="tutor-list">
+                        <div class="advator">
+                            <img src="images/swiper1-01.jpg" class="user">
+                        </div>
+                        <div class="listtext">
+                            <h3 class="name">周鸿祎</h3>
+                            <p class="company">极致产品实验室</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="tutor-list">
+                        <div class="advator">
+                            <img src="images/swiper1-02.jpg" class="user">
+                        </div>
+                        <div class="listtext">
+                            <h3 class="name">江南春</h3>
+                            <p class="company">营销定位实验室</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="tutor-list">
+                        <div class="advator">
+                            <img src="images/swiper1-03.jpg" class="user">
+                        </div>
+                        <div class="listtext">
+                            <h3 class="name">牛文文</h3>
+                            <p class="company">重度垂直实验室</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="tutor-list">
+                        <div class="advator">
+                            <img src="images/swiper1-01.jpg" class="user">
+                        </div>
+                        <div class="listtext">
+                            <h3 class="name">周鸿祎</h3>
+                            <p class="company">极致产品实验室</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="tutor-list">
+                        <div class="advator">
+                            <img src="images/swiper1-02.jpg" class="user">
+                        </div>
+                        <div class="listtext">
+                            <h3 class="name">江南春</h3>
+                            <p class="company">营销定位实验室</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="tutor-list">
+                        <div class="advator">
+                            <img src="images/swiper1-03.jpg" class="user">
+                        </div>
+                        <div class="listtext">
+                            <h3 class="name">牛文文</h3>
+                            <p class="company">重度垂直实验室</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script src="js/flexible.js"></script>
+<script type="text/javascript" src="js/jquery-2.2.0.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script type="text/javascript">
+    window.onload = function () {
+        var mySwiper = new Swiper('#type', {
+            freeMode: true,
+            slidesPerView: 'auto',
+        });
+    }
+</script>
+
+</html>
